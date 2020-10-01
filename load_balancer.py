@@ -10,6 +10,7 @@ nodes=["1.2.3.4","3.4.5.6","5.6.7.8"]
 server_ports=["5001","5002","5003"]
 
 consistent_hasher = ConsistentHasher()
+#ADD NODES
 for node in nodes:
     consistent_hasher.add_node(node)
 
